@@ -1,0 +1,18 @@
+---
+abstract: 'Profile your Catalyst application with Devel::NYTProf'
+author:
+  - 'Oliver Charles <oliver.g.charles@googlemail.com>'
+generated_by: 'Dist::Zilla version 1.100160'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-Profile
+requires:
+  Catalyst::Runtime: 5.80020
+  CatalystX::InjectComponent: 0.024
+  Devel::NYTProf: 3.01
+  ExtUtils::MakeMaker: 6.11
+  Moose: 0.93
+  namespace::autoclean: 0.09
+version: 0.01
