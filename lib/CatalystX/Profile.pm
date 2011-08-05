@@ -1,6 +1,8 @@
 # ABSTRACT: Profile your Catalyst application with Devel::NYTProf
 package CatalystX::Profile;
-our $VERSION = '0.01';
+BEGIN {
+  $CatalystX::Profile::VERSION = '0.02';
+}
 use Moose::Role;
 use namespace::autoclean;
 
@@ -34,7 +36,7 @@ CatalystX::Profile - Profile your Catalyst application with Devel::NYTProf
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -64,11 +66,11 @@ suggestions either on here via RT, or just poke me on irc.perl.org
 
 =head1 AUTHOR
 
-  Oliver Charles <oliver.g.charles@googlemail.com>
+Oliver Charles <oliver.g.charles@googlemail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Oliver Charles.
+This software is copyright (c) 2011 by Oliver Charles.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
